@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T11:48:41.085Z",
+  "generatedAt": "2026-10-11T12:00:27.208Z",
   "query": "awesome-mcp in:name archived:false fork:false",
   "summary": {
     "candidates": 99,
-    "included": 59,
-    "excluded": 40
+    "included": 58,
+    "excluded": 41
   },
   "decisions": [
     {
@@ -237,12 +237,6 @@
       "reason": "index metadata signal"
     },
     {
-      "fullName": "getmoxlade/awesome-mcp-data",
-      "url": "https://github.com/getmoxlade/awesome-mcp-data",
-      "included": true,
-      "reason": "index metadata signal"
-    },
-    {
       "fullName": "h00klod0er/awesome-re-mcp",
       "url": "https://github.com/h00klod0er/awesome-re-mcp",
       "included": true,
@@ -333,6 +327,12 @@
       "reason": "description does not identify an index or curated collection"
     },
     {
+      "fullName": "Lmeng486/awesome-termux-mcp",
+      "url": "https://github.com/Lmeng486/awesome-termux-mcp",
+      "included": true,
+      "reason": "index metadata signal"
+    },
+    {
       "fullName": "lorenzomeolav32-png/awesome-claude-skills-mcp-servers",
       "url": "https://github.com/lorenzomeolav32-png/awesome-claude-skills-mcp-servers",
       "included": true,
@@ -359,12 +359,6 @@
     {
       "fullName": "mcpHQ/awesome-mcp-servers",
       "url": "https://github.com/mcpHQ/awesome-mcp-servers",
-      "included": true,
-      "reason": "index metadata signal"
-    },
-    {
-      "fullName": "MCPPlayground/awesome-mcp-servers",
-      "url": "https://github.com/MCPPlayground/awesome-mcp-servers",
       "included": true,
       "reason": "index metadata signal"
     },
@@ -433,6 +427,12 @@
       "url": "https://github.com/Recall-Kitchen/awesome-x402-mcp-services",
       "included": true,
       "reason": "index metadata signal"
+    },
+    {
+      "fullName": "repolex-forx/samuelcolvin--awesome-mcp-servers",
+      "url": "https://github.com/repolex-forx/samuelcolvin--awesome-mcp-servers",
+      "included": false,
+      "reason": "description does not identify an index or curated collection"
     },
     {
       "fullName": "Rodert/awesome-mcp",
