@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T12:00:27.208Z",
+  "generatedAt": "2026-10-12T14:16:14.454Z",
   "source": {
     "type": "github-repository-search",
     "query": "awesome-mcp in:name archived:false fork:false",
@@ -62,14 +62,14 @@
       ],
       "metrics": {
         "stars": 26,
-        "forks": 100,
+        "forks": 104,
         "subscribers": 0,
-        "openIssues": 3,
-        "sizeKb": 1656
+        "openIssues": 9,
+        "sizeKb": 1716
       },
       "timestamps": {
         "createdAt": "2025-12-25T21:53:01Z",
-        "pushedAt": "2026-10-11T09:10:07Z"
+        "pushedAt": "2026-10-12T09:10:07Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -101,12 +101,12 @@
         "stars": 11,
         "forks": 23,
         "subscribers": 1,
-        "openIssues": 24,
-        "sizeKb": 252
+        "openIssues": 23,
+        "sizeKb": 253
       },
       "timestamps": {
         "createdAt": "2025-06-15T00:21:13Z",
-        "pushedAt": "2026-10-11T05:14:04Z"
+        "pushedAt": "2026-10-12T05:26:59Z"
       },
       "license": "Other",
       "provenance": {
@@ -142,14 +142,14 @@
       ],
       "metrics": {
         "stars": 149,
-        "forks": 163,
+        "forks": 166,
         "subscribers": 4,
-        "openIssues": 17,
-        "sizeKb": 227
+        "openIssues": 20,
+        "sizeKb": 228
       },
       "timestamps": {
         "createdAt": "2024-11-29T15:31:14Z",
-        "pushedAt": "2026-10-10T23:16:25Z"
+        "pushedAt": "2026-10-11T16:11:50Z"
       },
       "license": "Creative Commons Zero v1.0 Universal",
       "provenance": {
@@ -158,9 +158,9 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 137,
+        "linkedRepositoryCount": 135,
         "uniqueLinkedRepositoryCount": 31,
-        "sharedLinkedRepositoryCount": 106
+        "sharedLinkedRepositoryCount": 104
       }
     },
     {
@@ -184,14 +184,14 @@
       ],
       "metrics": {
         "stars": 3,
-        "forks": 25,
+        "forks": 26,
         "subscribers": 0,
-        "openIssues": 1122,
-        "sizeKb": 1781
+        "openIssues": 1139,
+        "sizeKb": 1797
       },
       "timestamps": {
         "createdAt": "2026-04-02T12:50:53Z",
-        "pushedAt": "2026-10-11T08:02:54Z"
+        "pushedAt": "2026-10-12T08:19:27Z"
       },
       "license": "Other",
       "provenance": {
@@ -274,7 +274,7 @@
         "stars": 10,
         "forks": 38,
         "subscribers": 0,
-        "openIssues": 6,
+        "openIssues": 9,
         "sizeKb": 321
       },
       "timestamps": {
@@ -320,12 +320,12 @@
         "stars": 2,
         "forks": 8,
         "subscribers": 0,
-        "openIssues": 4,
-        "sizeKb": 191
+        "openIssues": 1,
+        "sizeKb": 218
       },
       "timestamps": {
         "createdAt": "2026-06-06T21:34:56Z",
-        "pushedAt": "2026-10-06T20:06:15Z"
+        "pushedAt": "2026-10-12T00:16:56Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -334,9 +334,9 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 63,
+        "linkedRepositoryCount": 65,
         "uniqueLinkedRepositoryCount": 9,
-        "sharedLinkedRepositoryCount": 54
+        "sharedLinkedRepositoryCount": 56
       }
     },
     {
@@ -503,12 +503,12 @@
         "stars": 0,
         "forks": 18,
         "subscribers": 0,
-        "openIssues": 7,
-        "sizeKb": 1808
+        "openIssues": 8,
+        "sizeKb": 1813
       },
       "timestamps": {
         "createdAt": "2026-06-22T09:40:17Z",
-        "pushedAt": "2026-10-11T11:05:35Z"
+        "pushedAt": "2026-10-12T06:46:13Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -538,11 +538,11 @@
         "forks": 0,
         "subscribers": 0,
         "openIssues": 1,
-        "sizeKb": 125
+        "sizeKb": 129
       },
       "timestamps": {
         "createdAt": "2026-07-17T15:07:31Z",
-        "pushedAt": "2026-10-05T06:27:46Z"
+        "pushedAt": "2026-10-12T06:27:27Z"
       },
       "license": "Creative Commons Zero v1.0 Universal",
       "provenance": {
@@ -569,14 +569,14 @@
       "topics": [],
       "metrics": {
         "stars": 35,
-        "forks": 123,
+        "forks": 126,
         "subscribers": 2,
-        "openIssues": 70,
-        "sizeKb": 361
+        "openIssues": 73,
+        "sizeKb": 360
       },
       "timestamps": {
         "createdAt": "2025-05-19T04:46:47Z",
-        "pushedAt": "2026-10-09T10:16:18Z"
+        "pushedAt": "2026-10-12T04:40:16Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -616,7 +616,7 @@
       ],
       "metrics": {
         "stars": 7,
-        "forks": 72,
+        "forks": 71,
         "subscribers": 0,
         "openIssues": 61,
         "sizeKb": 75
@@ -656,14 +656,14 @@
       ],
       "metrics": {
         "stars": 185,
-        "forks": 85,
+        "forks": 86,
         "subscribers": 5,
         "openIssues": 25,
         "sizeKb": 61
       },
       "timestamps": {
         "createdAt": "2025-08-31T12:10:55Z",
-        "pushedAt": "2026-10-05T15:11:55Z"
+        "pushedAt": "2026-10-12T13:59:26Z"
       },
       "license": null,
       "provenance": {
@@ -692,7 +692,7 @@
         "stars": 9,
         "forks": 24,
         "subscribers": 0,
-        "openIssues": 8,
+        "openIssues": 9,
         "sizeKb": 56
       },
       "timestamps": {
@@ -726,12 +726,12 @@
         "stars": 0,
         "forks": 8,
         "subscribers": 1,
-        "openIssues": 503,
-        "sizeKb": 265
+        "openIssues": 505,
+        "sizeKb": 270
       },
       "timestamps": {
         "createdAt": "2025-06-24T10:46:08Z",
-        "pushedAt": "2026-10-11T08:09:12Z"
+        "pushedAt": "2026-10-12T08:23:45Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -765,7 +765,7 @@
       },
       "timestamps": {
         "createdAt": "2026-09-21T05:54:40Z",
-        "pushedAt": "2026-10-05T05:44:30Z"
+        "pushedAt": "2026-10-12T06:01:41Z"
       },
       "license": null,
       "provenance": {
@@ -801,9 +801,9 @@
       ],
       "metrics": {
         "stars": 22,
-        "forks": 155,
+        "forks": 158,
         "subscribers": 1,
-        "openIssues": 36,
+        "openIssues": 40,
         "sizeKb": 344
       },
       "timestamps": {
@@ -970,11 +970,11 @@
         "forks": 1,
         "subscribers": 0,
         "openIssues": 2,
-        "sizeKb": 2614
+        "sizeKb": 3056
       },
       "timestamps": {
         "createdAt": "2026-02-05T17:12:21Z",
-        "pushedAt": "2026-10-10T11:48:48Z"
+        "pushedAt": "2026-10-11T12:00:33Z"
       },
       "license": null,
       "provenance": {
@@ -1009,14 +1009,14 @@
       ],
       "metrics": {
         "stars": 15,
-        "forks": 36,
+        "forks": 38,
         "subscribers": 1,
-        "openIssues": 27,
-        "sizeKb": 616
+        "openIssues": 29,
+        "sizeKb": 639
       },
       "timestamps": {
         "createdAt": "2026-02-02T19:55:37Z",
-        "pushedAt": "2026-10-11T08:40:25Z"
+        "pushedAt": "2026-10-12T09:15:22Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -1046,11 +1046,11 @@
         "forks": 25,
         "subscribers": 1,
         "openIssues": 3,
-        "sizeKb": 939
+        "sizeKb": 943
       },
       "timestamps": {
         "createdAt": "2025-02-27T23:45:05Z",
-        "pushedAt": "2026-10-05T03:21:49Z"
+        "pushedAt": "2026-10-12T03:30:21Z"
       },
       "license": "Creative Commons Zero v1.0 Universal",
       "provenance": {
@@ -1060,8 +1060,8 @@
       "analysis": {
         "readmeStatus": "analyzed",
         "linkedRepositoryCount": 500,
-        "uniqueLinkedRepositoryCount": 197,
-        "sharedLinkedRepositoryCount": 303
+        "uniqueLinkedRepositoryCount": 194,
+        "sharedLinkedRepositoryCount": 306
       }
     },
     {
@@ -1086,11 +1086,11 @@
         "forks": 0,
         "subscribers": 0,
         "openIssues": 0,
-        "sizeKb": 27
+        "sizeKb": 44
       },
       "timestamps": {
         "createdAt": "2026-10-10T15:16:09Z",
-        "pushedAt": "2026-10-11T10:12:53Z"
+        "pushedAt": "2026-10-12T14:12:24Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -1099,8 +1099,8 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 6,
-        "uniqueLinkedRepositoryCount": 6,
+        "linkedRepositoryCount": 7,
+        "uniqueLinkedRepositoryCount": 7,
         "sharedLinkedRepositoryCount": 0
       }
     },
@@ -1157,11 +1157,11 @@
         "forks": 1,
         "subscribers": 0,
         "openIssues": 1,
-        "sizeKb": 66
+        "sizeKb": 68
       },
       "timestamps": {
         "createdAt": "2026-09-24T12:31:59Z",
-        "pushedAt": "2026-10-10T18:04:43Z"
+        "pushedAt": "2026-10-11T18:05:01Z"
       },
       "license": "Other",
       "provenance": {
@@ -1171,8 +1171,8 @@
       "analysis": {
         "readmeStatus": "analyzed",
         "linkedRepositoryCount": 377,
-        "uniqueLinkedRepositoryCount": 128,
-        "sharedLinkedRepositoryCount": 249
+        "uniqueLinkedRepositoryCount": 127,
+        "sharedLinkedRepositoryCount": 250
       }
     },
     {
@@ -1233,14 +1233,14 @@
       ],
       "metrics": {
         "stars": 189,
-        "forks": 125,
+        "forks": 131,
         "subscribers": 0,
         "openIssues": 4,
         "sizeKb": 2945
       },
       "timestamps": {
         "createdAt": "2026-05-30T20:36:56Z",
-        "pushedAt": "2026-10-11T06:49:27Z"
+        "pushedAt": "2026-10-12T14:16:12Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -1249,9 +1249,9 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 176,
-        "uniqueLinkedRepositoryCount": 43,
-        "sharedLinkedRepositoryCount": 133
+        "linkedRepositoryCount": 185,
+        "uniqueLinkedRepositoryCount": 49,
+        "sharedLinkedRepositoryCount": 136
       }
     },
     {
@@ -1267,14 +1267,14 @@
       "topics": [],
       "metrics": {
         "stars": 889,
-        "forks": 511,
+        "forks": 517,
         "subscribers": 11,
-        "openIssues": 86,
-        "sizeKb": 1195
+        "openIssues": 77,
+        "sizeKb": 1213
       },
       "timestamps": {
         "createdAt": "2025-03-24T16:33:17Z",
-        "pushedAt": "2026-10-11T02:42:02Z"
+        "pushedAt": "2026-10-12T02:45:26Z"
       },
       "license": "Creative Commons Zero v1.0 Universal",
       "provenance": {
@@ -1283,9 +1283,9 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 598,
-        "uniqueLinkedRepositoryCount": 269,
-        "sharedLinkedRepositoryCount": 329
+        "linkedRepositoryCount": 614,
+        "uniqueLinkedRepositoryCount": 281,
+        "sharedLinkedRepositoryCount": 333
       }
     },
     {
@@ -1318,7 +1318,7 @@
       },
       "timestamps": {
         "createdAt": "2026-07-17T02:09:43Z",
-        "pushedAt": "2026-10-09T18:35:23Z"
+        "pushedAt": "2026-10-12T14:15:53Z"
       },
       "license": "Creative Commons Zero v1.0 Universal",
       "provenance": {
@@ -1381,10 +1381,10 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 96103,
-        "forks": 17399,
+        "stars": 96195,
+        "forks": 17464,
         "subscribers": 51,
-        "openIssues": 2633,
+        "openIssues": 2706,
         "sizeKb": 434813
       },
       "timestamps": {
@@ -1417,10 +1417,10 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 1046,
-        "forks": 1350,
+        "stars": 1096,
+        "forks": 1410,
         "subscribers": 0,
-        "openIssues": 608,
+        "openIssues": 678,
         "sizeKb": 2397
       },
       "timestamps": {
@@ -1465,9 +1465,9 @@
       ],
       "metrics": {
         "stars": 39,
-        "forks": 16,
+        "forks": 17,
         "subscribers": 1,
-        "openIssues": 15,
+        "openIssues": 16,
         "sizeKb": 47
       },
       "timestamps": {
@@ -1507,9 +1507,9 @@
       ],
       "metrics": {
         "stars": 1,
-        "forks": 75,
+        "forks": 76,
         "subscribers": 2,
-        "openIssues": 2,
+        "openIssues": 4,
         "sizeKb": 43
       },
       "timestamps": {
@@ -1541,14 +1541,14 @@
       "topics": [],
       "metrics": {
         "stars": 18,
-        "forks": 30,
+        "forks": 29,
         "subscribers": 0,
-        "openIssues": 18,
-        "sizeKb": 62657
+        "openIssues": 17,
+        "sizeKb": 63221
       },
       "timestamps": {
         "createdAt": "2025-11-22T02:26:01Z",
-        "pushedAt": "2026-10-11T07:09:50Z"
+        "pushedAt": "2026-10-12T07:25:24Z"
       },
       "license": "Apache License 2.0",
       "provenance": {
@@ -1628,14 +1628,14 @@
       ],
       "metrics": {
         "stars": 7,
-        "forks": 58,
+        "forks": 59,
         "subscribers": 1,
-        "openIssues": 9,
-        "sizeKb": 509
+        "openIssues": 10,
+        "sizeKb": 555
       },
       "timestamps": {
         "createdAt": "2026-03-04T01:10:56Z",
-        "pushedAt": "2026-10-11T10:56:19Z"
+        "pushedAt": "2026-10-12T13:49:16Z"
       },
       "license": "Creative Commons Zero v1.0 Universal",
       "provenance": {
@@ -1644,9 +1644,9 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 341,
-        "uniqueLinkedRepositoryCount": 64,
-        "sharedLinkedRepositoryCount": 277
+        "linkedRepositoryCount": 345,
+        "uniqueLinkedRepositoryCount": 65,
+        "sharedLinkedRepositoryCount": 280
       }
     },
     {
@@ -1712,10 +1712,10 @@
         "osint-tools"
       ],
       "metrics": {
-        "stars": 507,
-        "forks": 119,
+        "stars": 508,
+        "forks": 121,
         "subscribers": 5,
-        "openIssues": 8,
+        "openIssues": 10,
         "sizeKb": 178
       },
       "timestamps": {
@@ -1763,11 +1763,11 @@
         "forks": 7,
         "subscribers": 1,
         "openIssues": 0,
-        "sizeKb": 870
+        "sizeKb": 913
       },
       "timestamps": {
         "createdAt": "2026-02-05T20:54:03Z",
-        "pushedAt": "2026-10-10T08:42:33Z"
+        "pushedAt": "2026-10-11T17:14:59Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -1776,9 +1776,9 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 56,
+        "linkedRepositoryCount": 57,
         "uniqueLinkedRepositoryCount": 3,
-        "sharedLinkedRepositoryCount": 53
+        "sharedLinkedRepositoryCount": 54
       }
     },
     {
@@ -1802,15 +1802,15 @@
         "model-context-protocol"
       ],
       "metrics": {
-        "stars": 889,
-        "forks": 1220,
+        "stars": 894,
+        "forks": 1231,
         "subscribers": 9,
-        "openIssues": 101,
-        "sizeKb": 13504
+        "openIssues": 25,
+        "sizeKb": 14458
       },
       "timestamps": {
         "createdAt": "2025-04-04T04:23:33Z",
-        "pushedAt": "2026-10-11T10:42:46Z"
+        "pushedAt": "2026-10-12T10:41:55Z"
       },
       "license": "MIT License",
       "provenance": {
@@ -1863,7 +1863,7 @@
       },
       "timestamps": {
         "createdAt": "2025-08-10T09:34:11Z",
-        "pushedAt": "2026-10-10T07:12:21Z"
+        "pushedAt": "2026-10-12T12:43:20Z"
       },
       "license": null,
       "provenance": {
@@ -1898,7 +1898,7 @@
         "resources"
       ],
       "metrics": {
-        "stars": 1,
+        "stars": 0,
         "forks": 5,
         "subscribers": 0,
         "openIssues": 5,
@@ -1941,9 +1941,9 @@
       ],
       "metrics": {
         "stars": 13,
-        "forks": 16,
+        "forks": 14,
         "subscribers": 0,
-        "openIssues": 9,
+        "openIssues": 8,
         "sizeKb": 154
       },
       "timestamps": {
@@ -1991,7 +1991,7 @@
         "stars": 97,
         "forks": 73,
         "subscribers": 2,
-        "openIssues": 10,
+        "openIssues": 9,
         "sizeKb": 236
       },
       "timestamps": {
@@ -2029,10 +2029,10 @@
         "wundercorp"
       ],
       "metrics": {
-        "stars": 21,
-        "forks": 72,
+        "stars": 22,
+        "forks": 74,
         "subscribers": 0,
-        "openIssues": 49,
+        "openIssues": 52,
         "sizeKb": 76
       },
       "timestamps": {
@@ -2073,15 +2073,15 @@
         "model-context-protocol"
       ],
       "metrics": {
-        "stars": 21,
+        "stars": 23,
         "forks": 7,
         "subscribers": 0,
-        "openIssues": 1,
-        "sizeKb": 129
+        "openIssues": 0,
+        "sizeKb": 130
       },
       "timestamps": {
         "createdAt": "2026-06-30T15:33:51Z",
-        "pushedAt": "2026-10-11T00:23:03Z"
+        "pushedAt": "2026-10-11T14:19:40Z"
       },
       "license": "Creative Commons Zero v1.0 Universal",
       "provenance": {
@@ -2090,8 +2090,8 @@
       },
       "analysis": {
         "readmeStatus": "analyzed",
-        "linkedRepositoryCount": 130,
-        "uniqueLinkedRepositoryCount": 89,
+        "linkedRepositoryCount": 131,
+        "uniqueLinkedRepositoryCount": 90,
         "sharedLinkedRepositoryCount": 41
       }
     },

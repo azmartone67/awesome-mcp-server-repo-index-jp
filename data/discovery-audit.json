@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T12:00:27.208Z",
+  "generatedAt": "2026-10-12T14:16:14.454Z",
   "query": "awesome-mcp in:name archived:false fork:false",
   "summary": {
     "candidates": 99,
@@ -465,6 +465,12 @@
       "reason": "description does not identify an index or curated collection"
     },
     {
+      "fullName": "sepehr071/awesome-iran-mcp",
+      "url": "https://github.com/sepehr071/awesome-iran-mcp",
+      "included": false,
+      "reason": "description does not identify an index or curated collection"
+    },
+    {
       "fullName": "shtse8/awesome-mcp-servers-pdf-outreach",
       "url": "https://github.com/shtse8/awesome-mcp-servers-pdf-outreach",
       "included": false,
@@ -541,12 +547,6 @@
       "url": "https://github.com/wundercorp/awesome-mcp",
       "included": true,
       "reason": "index metadata signal"
-    },
-    {
-      "fullName": "yms0527/awesome-mcp-servers",
-      "url": "https://github.com/yms0527/awesome-mcp-servers",
-      "included": false,
-      "reason": "description does not identify an index or curated collection"
     },
     {
       "fullName": "yzfly/Awesome-MCP-ZH",
