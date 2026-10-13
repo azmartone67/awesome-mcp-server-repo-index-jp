@@ -13,7 +13,7 @@ import {
 } from "./data/datasets.js";
 import {
   enrichAllRepos,
-  fetchAwesomeMcpIndexes,
+  fetchMcpIndexes,
   fetchReadmeContent,
 } from "./github/api.js";
 import {
@@ -59,7 +59,7 @@ export async function main(options: MainOptions = {}): Promise<void> {
   if (Number.isNaN(now.getTime())) throw new Error("Generation clock is invalid");
 
   console.log("\n🔍 Phase 1/4 — Discovering MCP index repositories");
-  const discovery = await fetchAwesomeMcpIndexes();
+  const discovery = await fetchMcpIndexes();
   const repos = discovery.repos;
 
   console.log("\n📡 Phase 2/4 — Enriching repo data");

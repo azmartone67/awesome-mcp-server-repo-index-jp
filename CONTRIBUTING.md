@@ -2,6 +2,8 @@
 
 This repository is a generated meta-index of MCP server lists, directories, registries, and marketplaces.
 
+Discovery combines focused GitHub searches for awesome lists, directories, registries, and catalogs, then deduplicates repositories before classification. The exact queries are recorded in the generated datasets, one query per line.
+
 ## How to Contribute
 
 ### Adding an MCP Index Repository
@@ -29,3 +31,19 @@ Check `data/discovery-audit.json` for the current decision and reason. Correctio
 - Ensure links are valid and accessible
 - Do not commit secrets or edit generated output by hand
 - Run `npm run check` from `find-awesome-mcp-servers` before submitting
+
+## Preview the Catalog Locally
+
+From the repository root, stage the same files used by GitHub Pages and serve them:
+
+```sh
+preview_dir=$(mktemp -d)
+mkdir -p "$preview_dir/data"
+cp site/index.html site/app.js site/catalog.mjs site/styles.css "$preview_dir/"
+cp data/indexes.json data/index-links.json "$preview_dir/data/"
+python3 -m http.server 8000 --bind 127.0.0.1 --directory "$preview_dir"
+```
+
+Open `http://127.0.0.1:8000`. Search, activity, license, sort, and submitted repository lookups are saved in the URL. The repository lookup checks README links across the full dataset, independent of catalog filters.
+
+The daily update workflow calls the publishing workflow with the commit it just pushed. Pushes to `main` that change the site or datasets also publish the catalog.

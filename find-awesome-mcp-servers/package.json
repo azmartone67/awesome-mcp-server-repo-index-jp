@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "check": "npm test && node --check ../site/app.js",
+    "check": "npm test && node --check ../site/app.js && node --check ../site/catalog.mjs",
     "find": "npm run build --silent && node dist/index.js",
     "test": "npm run build && node --test dist/test/*.test.js",
     "typecheck": "tsc --noEmit"

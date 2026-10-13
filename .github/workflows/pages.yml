@@ -8,6 +8,12 @@ on:
       - "data/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Commit containing the refreshed dataset
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -23,12 +29,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.ref || github.sha }}
       - uses: actions/configure-pages@v5
 
       - name: Stage static catalog
         run: |
           mkdir -p _site/data
-          cp site/index.html site/app.js site/styles.css _site/
+          cp site/index.html site/app.js site/catalog.mjs site/styles.css _site/
           cp data/indexes.json data/index-links.json _site/data/
 
       - uses: actions/upload-pages-artifact@v5

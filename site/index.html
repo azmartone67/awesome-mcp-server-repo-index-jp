@@ -34,6 +34,22 @@
     </header>
 
     <main class="shell">
+      <section class="repo-lookup" aria-labelledby="lookup-heading">
+        <div>
+          <h2 id="lookup-heading">Which indexes link to your repo?</h2>
+          <p>Find directories whose README links to a GitHub repository.</p>
+        </div>
+        <form id="repo-form">
+          <label for="repo-search">GitHub repository</label>
+          <div class="lookup-inputs">
+            <input id="repo-search" type="search" placeholder="owner/repo or a GitHub URL" autocomplete="off" aria-describedby="lookup-status" />
+            <button type="submit">Find indexes</button>
+          </div>
+        </form>
+        <p id="lookup-status" role="status" aria-live="polite"></p>
+        <ul id="lookup-results" class="lookup-results" hidden></ul>
+      </section>
+
       <section class="controls" aria-label="Catalog filters">
         <label class="search-control">
           <span>Search</span>
@@ -56,7 +72,7 @@
           <span>Sort</span>
           <select id="sort">
             <option value="coverage">Most coverage</option>
-            <option value="unique">Most unique links</option>
+            <option value="unique">Most links found only here</option>
             <option value="stars">Most stars</option>
             <option value="updated">Recently updated</option>
             <option value="name">Name A–Z</option>
@@ -68,6 +84,13 @@
         <h2>Index catalog</h2>
         <p id="result-count" aria-live="polite">Loading…</p>
       </div>
+      <details class="coverage-help">
+        <summary>How coverage is counted</summary>
+        <p><strong>Linked repos</strong> counts distinct GitHub repositories linked from an index's README.
+          <strong>Only here</strong> counts repositories linked by no other index in this dataset.
+          Links can include tools, examples, or other indexes, so these are not verified MCP server counts.</p>
+        <p><strong>N/A</strong> means the README was unavailable. A zero means the README was analyzed and no matching links were found.</p>
+      </details>
       <section id="results" class="catalog" aria-label="MCP index results"></section>
       <p id="empty-state" class="empty" hidden>No indexes match those filters.</p>
       <noscript>This catalog needs JavaScript to load the generated dataset.</noscript>
