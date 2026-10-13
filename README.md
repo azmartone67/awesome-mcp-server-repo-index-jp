@@ -62,8 +62,6 @@ GitHub candidates are discovered automatically, checked for index-oriented metad
 
 ## Community Marketplaces & Directories
 
-- [Statsnet MCP](https://github.com/usenetstate/statsnet-mcp) — Background check any company in the world: registration, executives, courts and finances. · Endpoint `https://statsnet.co/mcp` · Registry `io.github.usenetstate/statsnet` · Site https://statsnet.co
-
 | Platform            | Link                                                     |
 | ------------------- | -------------------------------------------------------- |
 | AI Agents Directory | [aiagentsdirectory.com](https://aiagentsdirectory.com/)  |
@@ -89,6 +87,7 @@ GitHub candidates are discovered automatically, checked for index-oriented metad
 | PulseMCP            | [pulsemcp.com/servers](https://www.pulsemcp.com/servers) |
 | SkillFlow.builders  | [skillflow.builders](https://skillflow.builders/)        |
 | Smithery            | [smithery.ai](https://smithery.ai/)                      |
+| Statsnet MCP        | [statsnet.co](https://statsnet.co)                       |
 
 ## Scope
 
