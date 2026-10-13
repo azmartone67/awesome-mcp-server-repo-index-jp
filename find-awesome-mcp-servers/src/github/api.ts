@@ -1,13 +1,10 @@
 import dotenv from "dotenv";
 import { Octokit } from "octokit";
-import {
-  EnrichedRepo,
-  GithubRepo,
-  GithubRepoSchema,
-} from "../schema/github.js";
+import { EnrichedRepo, GithubRepo } from "../schema/github.js";
 import { mapWithConcurrency, withGithubRetry } from "../utils/async.js";
 import { delay } from "../utils/delay.js";
-import { classifyIndexRepository } from "./classify.js";
+import { discoverMcpIndexes, IndexDiscovery } from "./discovery.js";
+export type { IndexDiscovery } from "./discovery.js";
 
 dotenv.config({ quiet: true });
 const octokit = new Octokit({
@@ -19,22 +16,6 @@ const octokit = new Octokit({
 
 const SEARCH_PAGE_DELAY_MS = 500;
 const ENRICHMENT_CONCURRENCY = 8;
-const GITHUB_SEARCH_RESULT_LIMIT = 1_000;
-export const GITHUB_INDEX_SEARCH_QUERY =
-  "awesome-mcp in:name archived:false fork:false";
-
-export type DiscoveryDecision = {
-  repo: GithubRepo;
-  included: boolean;
-  reason: string;
-};
-
-export type IndexDiscovery = {
-  query: string;
-  candidateCount: number;
-  repos: GithubRepo[];
-  decisions: DiscoveryDecision[];
-};
 
 function logProgress(current: number, total: number, label: string): void {
   const percentage = Math.round((current / total) * 100);
@@ -46,17 +27,13 @@ function logProgress(current: number, total: number, label: string): void {
   );
 }
 
-export async function fetchAwesomeMcpIndexes(): Promise<IndexDiscovery> {
-  const searchQuery = GITHUB_INDEX_SEARCH_QUERY;
-  const allRepos: GithubRepo[] = [];
-  let page = 1;
-  let hasMore = true;
-  let totalCount = 0;
-
-  while (hasMore) {
+export async function fetchMcpIndexes(): Promise<IndexDiscovery> {
+  let requests = 0;
+  const discovery = await discoverMcpIndexes(async (query, page) => {
+    if (requests++ > 0) await delay(SEARCH_PAGE_DELAY_MS);
     const response = await withGithubRetry(() =>
       octokit.rest.search.repos({
-        q: searchQuery,
+        q: query,
         sort: "updated",
         order: "desc",
         per_page: 100,
@@ -64,43 +41,17 @@ export async function fetchAwesomeMcpIndexes(): Promise<IndexDiscovery> {
       }),
     );
 
-    if (page === 1) {
-      totalCount = response.data.total_count;
-      if (totalCount > GITHUB_SEARCH_RESULT_LIMIT) {
-        throw new Error(
-          `GitHub found ${totalCount} repositories, exceeding its ${GITHUB_SEARCH_RESULT_LIMIT}-result search limit`,
-        );
-      }
-    }
-
-    const repos = GithubRepoSchema.array().parse(response.data.items);
-    allRepos.push(...repos);
-
-    logProgress(allRepos.length, totalCount, `Page ${page}`);
-
-    hasMore = repos.length === 100 && allRepos.length < totalCount;
-    page++;
-
-    if (hasMore) await delay(SEARCH_PAGE_DELAY_MS);
-  }
-
-  process.stdout.write("\n");
-  const decisions = allRepos.map((repo) => ({
-    repo,
-    ...classifyIndexRepository(repo),
-  }));
-  const indexRepos = decisions
-    .filter((decision) => decision.included)
-    .map((decision) => decision.repo);
+    console.log(`  Search page ${page}: ${query} (${response.data.total_count} candidates)`);
+    return {
+      items: response.data.items,
+      totalCount: response.data.total_count,
+      incomplete: response.data.incomplete_results,
+    };
+  });
   console.log(
-    `  ✔ Retained ${indexRepos.length}/${allRepos.length} repositories with index metadata`,
+    `  ✔ Retained ${discovery.repos.length}/${discovery.candidateCount} repositories with index metadata`,
   );
-  return {
-    query: searchQuery,
-    candidateCount: allRepos.length,
-    repos: indexRepos,
-    decisions,
-  };
+  return discovery;
 }
 
 async function fetchRepoDetails(
